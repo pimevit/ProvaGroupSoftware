@@ -1,0 +1,42 @@
+﻿@model ProvaGroupSoftware.Models.Unidade
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Unidade</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Condominio.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Condominio.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Numero)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Numero)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValorUnidade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValorUnidade)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.UnidadeId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
