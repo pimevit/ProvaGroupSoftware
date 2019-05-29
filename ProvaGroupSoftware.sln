@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaGroupSoftware", "ProvaGroupSoftware\ProvaGroupSoftware.csproj", "{8A62D23E-45E9-4D69-BB15-DF0B73D80916}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaliacaoCondominio", "..\..\..\..\..\temp\GroupSoftware\Condominio\AvaliacaoCondominio.csproj", "{83836651-4569-446D-8FE9-E4FA544E24F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguraGeometrica", "..\..\..\..\..\temp\GroupSoftware\GroupSoftware\FiguraGeometrica.csproj", "{BA9A46E8-339A-4CC3-B43B-3EAF3305906C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8A62D23E-45E9-4D69-BB15-DF0B73D80916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A62D23E-45E9-4D69-BB15-DF0B73D80916}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A62D23E-45E9-4D69-BB15-DF0B73D80916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83836651-4569-446D-8FE9-E4FA544E24F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83836651-4569-446D-8FE9-E4FA544E24F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83836651-4569-446D-8FE9-E4FA544E24F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83836651-4569-446D-8FE9-E4FA544E24F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9A46E8-339A-4CC3-B43B-3EAF3305906C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9A46E8-339A-4CC3-B43B-3EAF3305906C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9A46E8-339A-4CC3-B43B-3EAF3305906C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9A46E8-339A-4CC3-B43B-3EAF3305906C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
